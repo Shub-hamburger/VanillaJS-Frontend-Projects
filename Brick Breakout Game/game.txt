@@ -1,4 +1,3 @@
-To see the live preview go to:
+To see the live preview go to: https://brickbreakoutawesome.netlify.app/
 
-
-https://brickbreakoutawesome.netlify.app/
+NOTE: This game is not mobile friendly, for better experience use a PC/laptop.
