@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Brick Breakout!</title>
+</head>
+<body>
+  <h1>Brick Breakout!</h1>
+  <button id="rules-btn" class="btn rules-btn">Show Rules</button>
+  <div id="rules" class="rules">
+    <h2>How To Play:</h2>
+    <p>
+      Use left and right keys to move the paddle and bounce the ball off. Break all the bricks to win.
+    </p>
+    <p>If you miss the ball, it's Game Over!</p>
+    <button id="close-btn" class="btn">Close</button>
+  </div>
+
+  <canvas id="canvas" width="800" height="600"></canvas>
+  <div class="btn-div">
+    <button id="play-btn" class="control-btn play-btn">Play</button>
+    <button id="pause-btn" class="control-btn pause-btn">Pause</button>
+    <button id="stop-btn" class="control-btn stop-btn">Stop</button>
+  </div>
+  
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
